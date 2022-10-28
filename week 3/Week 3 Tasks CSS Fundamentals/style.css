@@ -1,0 +1,86 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: rgb(46, 46, 113);
+    text-align: center;
+    border: 2px dashed;
+    border-radius: 30px;
+}
+h2{
+    color: rgb(46, 46, 113);
+    text-align: center;
+    border: 2px dashed;
+    border-radius: 30px;
+}
+h3 {
+    color: rgb(46, 46, 113);
+          
+}
+a {
+    color: rgb(46, 46, 113);
+    
+       
+}
+#contacts{
+        border: 2px solid rgb(42, 33, 33);
+
+}
+.myback {
+    border: 1px solid black;
+
+}
+
+.myPix {
+   text-indent: 80ch; 
+   margin-right: 20%;
+}
+.contact{
+    border: none;
+    color: white;
+    
+}
+.myLinks {
+  text-indent: 72%;
+  font-size: 22px;
+  
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+input[type=text]{
+width: 30%;
+border: 50px solid rgb(50, 46, 46);
+padding: 25px;
+}
+textarea {
+    width: 90%;
+border: 50px solid rgb(50, 46, 46);
+height: 70%; 
+
+;
+padding: 25px;
+}
+.serve{ 
+    border: none;
+}
+.project{
+    border: none;
+}
+a:hover{
+    color: green;
+}
+.mymainpix{
+    border-radius: 60%;
+    margin-right: 100px;
+}
+td img{
+    margin-right: 5px;
+    border-radius: 6px;
+}
+.listparagraph {
+    /* justify-content: space-around; */
+    margin-left: 500px;
+}
