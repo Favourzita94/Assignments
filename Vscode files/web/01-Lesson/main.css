@@ -1,0 +1,19 @@
+html {
+    font: size 12px;color: rgb(7, 14, 19) ;
+}
+body {
+    font-size: 22px; 
+    background: color whitesmoke;
+}
+a{
+    color: rgb(78, 35, 188);
+}
+a:visited{
+    color:blue;
+}
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

@@ -1,0 +1,24 @@
+div {
+    background-color: rgb(166, 220, 220);
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 25px;
+    color: #090960;  
+}
+img {
+    border: 10px solid rgb(81, 32, 32);;
+    border-radius: 400px;
+}
+.mypix {
+    margin: auto 30px;
+}
+h1 {
+    font-size: 30px;
+    color: #090960;
+}
+.prayer {
+    color: rgb(81, 32, 32);
+}

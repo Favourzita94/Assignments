@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(248, 222, 222);
+}
+h1{
+    color: red;
+}
+.subtitle{
+    color: green;
+}
+#contact-us{
+    color: rgb(7, 7, 69);
+}
+.about-me{
+    color: black;
+}
+h2:hover{
+color: rgb(255, 72, 0);
+}
+li:first-child{
+    color: rgb(144, 81, 25);
+}
+li:last-child{
+    color: rgb(116, 231, 39);
+}
+li:nth-child(2){
+    color: brown;
+}
+#goggle-link:link {
+    color: red;
+}
+#goggle-link:visited {
+    color: purple;
+}
+h2 + a {
+    color: red;
+}
+textarea ~ button {
+    color: green;
+}/* if the button is not following the textarea immediately*/
+textarea + button {
+    color: blue;
+}/* if the button is following the textarea immediately*/
+ul > li {
+    color: chartreuse;
+}/*The li selector is more active than this advanced selector of ul>li so if u want it to work, u comment out the li selector used previously./*
+/*we have a descendant selector i.e ul li instaed of ul>li and we use this when we have an expression like this:ul <li><ol> <li>i have a good God</li> </ol></li>*/
+ul li {
+    color: darkorange;
+}
+img[src*="../img"] {
+    border: 10px solid black;
+}
+h2[class~=article-subtitle] {
+    background: rgb(28, 68, 28);
+}
+h2[class|= g]
+
+selector {
+    property: value;
+    property: value2;
+}
+#service-image {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    background: cover;
+    background: linear-gradient(to right, red, blue);
+}
+
